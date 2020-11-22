@@ -1,0 +1,2 @@
+# Recommender-System-with-Collaborative-Filtering
+The problem was creating a nice output file for every user in given dataset. I solved the problem by using Matrix Factorization algorithms since the only columns that we have are User_ID, Movie_ID and Ratings also most of the users did not give ratings to most of the movies so we have a sparse matrix to handle. I used SVD, SVDpp and NMF to see which will give the lower RMSE for my training and testing set and I concluded that SVDpp was a better result for my project.
